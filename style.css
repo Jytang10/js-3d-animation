@@ -34,6 +34,7 @@ body {
 .sneaker img {
   width: 20rem;
   z-index: 2;
+  transition: all 0.5s ease-out;
 }
 .circle {
   width: 15rem;
@@ -49,16 +50,19 @@ body {
 }
 .info h1 {
   font-size: 3rem;
+  transition: all 0.5s ease-out;
 }
 .info h3 {
   font-size: 1.3rem;
   padding: 2rem 0rem;
   color: #585858;
   font-weight: lighter;
+  transition: all 0.5s ease-out;
 }
 .sizes {
   display: flex;
   justify-content: space-between;
+  transition: all 0.5s ease-out;
 }
 .sizes button {
   padding: 0.5rem 2rem;
@@ -86,4 +90,5 @@ button.active {
   cursor: pointer;
   border-radius: 30px;
   font-weight: bolder;
+  transition: all 0.5s ease-out;
 }
