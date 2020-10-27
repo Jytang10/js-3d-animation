@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  perspective: 1000px;
 }
 .container {
   width: 50%;
@@ -17,6 +18,7 @@ body {
   align-items: center;
 }
 .card {
+  transform-style: preserve-3d;
   min-height: 80vh;
   width: 35rem;
   border-radius: 30px;
